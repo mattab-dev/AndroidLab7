@@ -6,6 +6,9 @@
 /.idea/modules.xml
 /.idea/misc.xml
 /.idea/vcs.xml
+/.idea/copyright
+/.idea/caches
+/.idea/codeStyles
 .DS_Store
 /build
 /captures
