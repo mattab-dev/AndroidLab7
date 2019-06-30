@@ -3,7 +3,11 @@
     <string name="stan_baterii">Stan baterii</string>
 
     <string name="counter_title">Licznik czasu</string>
+    <string name="charger_title">Pozostały czas ładowania</string>
     <string name="counter_body">Minęło: </string>
+    <string name="charger_body">Pozostało: </string>
     <string name="counter_start">Licznik start</string>
     <string name="counter_stop">Licznik stop</string>
+    <string name="notification_text">Notification text</string>
+    <string name="publish">Publish</string>
 </resources>

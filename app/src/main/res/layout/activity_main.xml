@@ -50,5 +50,25 @@
         android:layout_toEndOf="@id/btn_start"
         android:onClick="stopTimer" />
 
+    <EditText
+        android:id="@+id/notificationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_start"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/notification_text" />
+
+    <Button
+        android:id="@+id/publish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/notificationText"
+        android:layout_alignBottom="@id/notificationText"
+        android:layout_toRightOf="@id/notificationText"
+        android:layout_marginLeft="22dp"
+        android:text="@string/publish"/>
+
     <!-- Dodać pola TextView i Button -->
 </RelativeLayout>

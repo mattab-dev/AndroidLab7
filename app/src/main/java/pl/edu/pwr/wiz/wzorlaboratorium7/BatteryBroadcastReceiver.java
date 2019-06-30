@@ -8,6 +8,7 @@ import android.os.BatteryManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 public class BatteryBroadcastReceiver extends BroadcastReceiver {
     final static String TAG = "BatteryBR";
@@ -26,5 +27,6 @@ public class BatteryBroadcastReceiver extends BroadcastReceiver {
 
         progressBar.setProgress(Math.round(batteryPct));
         progressBar.setVisibility(View.VISIBLE);
+
     }
 }
